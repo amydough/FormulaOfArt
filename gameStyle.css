@@ -1,0 +1,290 @@
+/* Nav Bar */
+
+
+nav{
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  height: 20%;
+  color: #447572;
+}
+
+ul.navbar {
+	list-style-type: none;
+	font-size: 1.5em;
+	margin: 1px;
+	margin-left: 25%;
+
+}
+
+li.navbarl{
+	display: inline-block;
+	padding: 1% 2%;
+	margin-bottom: .5%;
+	border: 1px solid black;
+	box-shadow: 5px 5px 15px #807149;
+}
+
+/* drop down menu */
+
+.dropdown {
+	display: none;
+	position: absolute;
+	color: #447572;
+	background-color: black;
+	min-width: 160px;
+	margin-top: 3px;
+    box-shadow: 5px 5px 15px #807149;
+    z-index: 1;
+}
+
+.dropdown a{
+	color:#447572;
+	display: block;
+	text-align: center;
+}
+
+.dropdown a:hover {
+	background-color: #615638;
+}
+	
+.navbar:hover .dropdown {
+	display: block;
+}
+
+
+
+
+/* header bar */
+
+.titleimg {
+	background-image: url("../img/geometry.jpg");
+    position: relative;
+	overflow: hidden;
+	top: 0;
+	height: 20%;
+
+}
+
+
+
+
+.titletext {
+	text-align: left;
+	position: relative;
+	top: 5px;
+
+}
+
+h1{
+	color: white;
+	font-size: 6em;
+	text-shadow: 2px 2px 4px red;
+	text-align: center;
+}
+
+
+/* main content */
+
+article {
+	margin-bottom: 300px;
+}
+
+section {
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+
+h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2.5em;
+	text-align: center;
+	text-shadow: 2px 2px 8px brown;
+}
+
+h3 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2em;
+}
+
+body {
+    background-image: radial-gradient(#f5b918, #807149);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	height: 100%;
+	margin: 0;
+	
+}
+
+
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5em;
+	margin: auto;
+	padding: 40px;
+	width: 50%;
+	text-align: justify;
+
+}
+
+p.caption {
+	text-align: center;
+	font-size: 1em;
+}
+
+a {
+   color:#447572;
+}
+
+
+/* footer */
+
+
+
+footer {
+	background-color: #28403e;
+	color: #9eb5b3;
+	padding: 13px;
+}
+
+h2.foot, h3.foot {
+	background-color: #28403e;
+	color: #9eb5b3;
+	padding: 10px;
+}
+
+footer a.button {
+  background-color: #28403e;
+  color: black;
+  border: 2px solid black;
+  padding: 25px 45px;
+  text-align: center;
+  font-size: 20px;
+  -webkit-transition-duration: 0.7s; 
+  transition-duration: 0.7s;
+  box-shadow: 5px 5px 15px #807149;
+}
+
+
+
+
+/* API drag-and-drop */
+
+
+
+
+#place1 {
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 180px;
+	margin-left: 9em;
+	margin-top: 4.5em;
+	border: 1px dotted black;
+}
+
+#place2 {
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 2.5em;
+	margin-top: 10em;
+	width: 280px;
+	height: 180px;
+	border: 1px dotted blue;
+	transform: rotate(180deg);
+}
+
+#place3 {
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 27em;
+	margin-top: 3em;
+	width: 280px;
+	height: 180px;
+	border: 1px dotted white;
+	transform: rotate(90deg);
+}
+
+
+
+
+.suppict {
+	background-image: url("img/lastsupper.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 680px;
+	height: 380px;
+	margin: auto;
+	padding: 3px;
+	border: 1px dotted black;
+}
+
+
+.spiral1 {
+	float: left;
+	width: 280px;
+	height: 180px;
+	margin: 3px;
+	padding: 3px;
+	border: 1px dotted blue;
+	transform: rotate(180deg);
+}
+
+.spiral2 {
+	width: 280px;
+	height: 180px;
+	margin: 3px;
+	padding: 3px;
+	border: 1px dotted black;
+}
+
+.spiral3 {
+	float: right;
+	width: 280px;
+	height: 180px;
+	margin: 3px;
+	padding: 3px;
+	border: 1px dotted white;
+	transform: rotate(90deg);
+}
+
+
+.pics, .nums {
+	clear: both;
+	text-align: center;
+}
+
+.textbox {
+	width: 80%;
+	height: auto;
+	margin: auto;
+}	
+ 
+.button {
+	background-color: #28403e;
+	color: #9eb5b3;
+	padding: 3px 15px;
+	text-align: center;
+	display: inline-block;
+	margin: 5% 47%;
+	-webkit-transition-duration: 0.7s; 
+	transition-duration: 0.7s;
+	box-shadow: 5px 5px 15px #807149;
+}
+
+
+.button:hover {
+  background-color: black;
+  color: #9eb5b3;
+  border: 2px solid #28403e;
+}
+	

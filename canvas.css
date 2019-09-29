@@ -1,0 +1,44 @@
+body {
+    
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	height: 100%;
+	margin: 0;
+	
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+
+h1{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+	font-size: 6em;
+	text-shadow: 4px 4px 4px #C44125;
+}
+
+a {
+	color: white;
+    text-decoration: none;
+}
+
+a:link {
+	color: white;
+  text-decoration: none;
+}
+
+a:visited {
+	color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
